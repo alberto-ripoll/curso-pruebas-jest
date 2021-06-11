@@ -5,7 +5,7 @@ const divide = (a,b) => {
         return a / b;
     }
     throw new Error('invalid input');
-    return null;
+    // return null;
 }
 
 

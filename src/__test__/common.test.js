@@ -10,7 +10,11 @@ describe('Pruebas de sum', () => {
         expect(rta).toBe(8);
         expect(suma(4, 3)).toBe(7);
         expect(suma(1, 0)).toBe(1);
-        ex 
+    })
+
+    test('Debería ser mayor que', () => {
+        expect(suma(4, 3)).toBeGreaterThanOrEqual(7);
+        expect(suma(1, 1)).toBeGreaterThan(1);
     })
 })
 
